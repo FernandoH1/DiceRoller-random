@@ -1,10 +1,13 @@
-package co.com.sofka.diceroller;
+package co.com.sofka.diceroller.controller;
 
 import java.util.Collections;
 import java.util.Date;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import co.com.sofka.diceroller.Dto.DadoDTO;
+import co.com.sofka.diceroller.Repository.DadoRepository;
+import co.com.sofka.diceroller.model.Dado;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package co.com.sofka.diceroller;
+package co.com.sofka.diceroller.Dto;
 
 public class DadoDTO {
     private String list;

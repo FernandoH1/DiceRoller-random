@@ -1,4 +1,4 @@
-package co.com.sofka.diceroller;
+package co.com.sofka.diceroller.ConfigDB;
 
 import com.mongodb.reactivestreams.client.MongoClient;
 import com.mongodb.reactivestreams.client.MongoClients;
